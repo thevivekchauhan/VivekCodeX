@@ -1,0 +1,147 @@
+.about-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+  padding: 20px;
+}
+
+.about-content {
+  max-width: 800px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-image {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(45deg, #1cc8db, #db1c99);
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  color: white;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #1cc8db;
+  margin: 0 auto 20px;
+  display: block;
+  box-shadow: 0 0 20px rgba(28, 200, 219, 0.3);
+}
+
+.name {
+  font-size: 2.5em;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.location {
+  color: #1cc8db;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.description-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.highlight-blue {
+  color: #1cc8db;
+  font-weight: bold;
+}
+
+.highlight-pink {
+  color: #db1c99;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    padding: 20px;
+  }
+  
+  .about-text {
+    font-size: 1em;
+  }
+  
+  .name {
+    font-size: 2em;
+  }
+}
+
+.contact-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-title {
+  color: #0050ec;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.email-label {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.email-link {
+  color: #1cc8db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #fac921;
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .contact-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
