@@ -115,6 +115,15 @@ function App() {
               <span>About</span>
             </Link>
           </div>
+          <div className="visitor-counter">
+              <p style={{ margin: 0, textAlign: 'center' }}>
+                {/* Visitors */}
+                <img 
+                  src="https://profile-counter.glitch.me/vivekcodex/count.svg" 
+                  alt="Visitor Count"
+                />
+              </p>
+            </div>
         </header>
 
         <Routes>
